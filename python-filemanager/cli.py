@@ -1,3 +1,7 @@
+"""
+File manager written in python
+"""
+
 from fire import Fire
 
 
@@ -9,5 +13,5 @@ def main():
     return Fire(FileManager)
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()

@@ -2,7 +2,7 @@ echo "Istalling pipx ..."
 pip3 install --user pipx 
 
 pipx install poetry
-poetry config --local virtualenvs.in-project true
+# poetry config --local virtualenvs.in-project true
 
 if [[ -f pyproject.toml || -f poetry.lock ]]; then
     echo "Found a pyproject.toml or poetry.lock ..."
